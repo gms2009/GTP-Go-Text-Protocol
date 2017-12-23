@@ -1,5 +1,6 @@
 # GTP-Go-Text-Protocol
 This a simple implementation of GTP for Go engines in Python 3.
+
 Support commands(11):
 
 `protocol_version`
