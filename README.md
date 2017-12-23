@@ -25,7 +25,7 @@ Support commands(11):
 
 `name = 'Go Away`
 
->version = '1.0'
+`version = '1.0'`
 2. Function genmove(color) requires code for determing where the next stone is to be put
 3. Function play(color, coord)/clear_board() requires engine to update the board state.
 4. Function quit()/resign() is related to end the game.
