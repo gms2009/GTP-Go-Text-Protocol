@@ -1,6 +1,20 @@
 # GTP-Go-Text-Protocol
 This a simple implementation of GTP for Go engines in Python 3.
-Support commands(11):`protocol_version``name``version``known_command``list_commands``quit``boardsize``clear_board``komi``play``genmove`
+Support commands(11):
+
+`protocol_version`
+
+`name``version`
+
+`known_command`
+
+`list_commands`
+
+`quit``boardsize`
+
+`clear_board``komi`
+
+`play``genmove`
 1. An engine is expected to keep track of the following state information(with default value)
 
 `boardsize = 19`
