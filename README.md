@@ -1,37 +1,15 @@
 # GTP-Go-Text-Protocol
 This a simple implementation of GTP for Go engines in Python 3.
-Support commands(11):
-`protocol_version`
-
->name
-
->version
-
->known_command
-
->list_commands
-
->quit
-
->boardsize
-
->clear_board
-
->komi
-
->play
-
->genmove
-
-
+Support commands(11):`protocol_version``name``version``known_command``list_commands``quit``boardsize``clear_board``komi``play``genmove`
 1. An engine is expected to keep track of the following state information(with default value)
->boardsize = 19
 
->komi = 6.5
+`boardsize = 19`
 
->protocol_version = 2
+`komi = 6.5`
 
->name = 'Go Away'
+`protocol_version = 2`
+
+`name = 'Go Away`
 
 >version = '1.0'
 2. Function genmove(color) requires code for determing where the next stone is to be put
